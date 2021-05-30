@@ -1,2 +1,4 @@
 *.xlsx
+*.xlsm
 test.py
+public Sub test().bas
