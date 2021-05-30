@@ -32,5 +32,13 @@ class Sheet(WorkBook):
         self.wb.save('ТСЖ_КАРТОФЕЛЬНЫЙ_Для_ДИПЛОМАred.xlsx')
 TSJ=Sheet("ТСЖ_КАРТОФЕЛЬНЫЙ_Для_ДИПЛОМА.xlsx","ИПУ")
 #TSJ.replacement('E2','F141','C2','D141')
+# name_wb=input('Введите имя excel файла')
+# name_list=input('Введите имя листа')
+# data_location_begin=input('Введите название первой ячейки места копирования')
+# data_location_end=input('Введите название последней ячейки места копирования')
+# data_storage_space_begin=input('Введите название первой ячейки для вставки данных')
+# data_storage_space_end=input('Введите название последней ячейки для вставки данных')
+# TSJ=Sheet(name_wb,name_list)
+# TSJ.replacement(data_location_begin,data_location_end,data_storage_space_begin,data_storage_space_end)
 TSJ.save()
 
